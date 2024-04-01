@@ -1,0 +1,16 @@
+func main() {
+    int [4] array_variable;
+
+    # Should print out '2'
+    array_variable[0] = 2;
+    print(array_variable[0]);
+
+    # Should print out '4'
+    array_variable[1] = array_variable[0] + array_variable[0];
+    print(array_variable[1]);
+
+    # Should print out '8'
+    array_variable[2] = array_variable[1] + 2 * 2;
+    print(array_variable[2]);
+
+}
